@@ -4,7 +4,6 @@ import uuid
 from werkzeug.security import generate_password_hash, check_password_hash
 import jwt
 import datetime
-import psycopg2
 from functools import wraps
 
 app = Flask(__name__)
